@@ -4,7 +4,20 @@
 
 [Click here to view the Final Report (PDF)](Final_Report.pdf)
 
-**ABSTRACT**
+**Model Architectures Overview**
+
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/83d4233a-f883-4c07-af6c-6a462829cc88" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/522e0817-a9b0-4760-bb9c-dab1a8d6cfa0" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/57b2a472-729c-475b-9204-10e150075f8f" />
+
+**Generative Summarization Models: Evaluation and Comparisons**
+
+<img width="300" height="400" alt="bart_rougeL" src="https://github.com/user-attachments/assets/70ec5315-965f-4e24-b232-2e47b90d273d" />
+<img width="300" height="400" alt="t5-small_rougeL" src="https://github.com/user-attachments/assets/535abc82-8c02-4f0c-a2bf-2aaafc777fed" />
+<img width="300" height="400" alt="t5-base_rougeL" src="https://github.com/user-attachments/assets/9adbb424-94aa-4091-8ab7-3f1f1bb66c26" />
+
+
+**Abstract**
 
 In 1956, George A. Miller proposed his notion of "The Magical Number" regarding an
 exploration of human memory and its limitations. His paper, titled "The Magical Number
@@ -75,6 +88,12 @@ that takes in a swath of user-generated comments
 and outputs a summary of key overlapping topics
 as a means of communicating general viewership
 thought or sentiment.
+
+<img width="200" height="400" alt="pipeline" src="https://github.com/user-attachments/assets/8ffb0a97-cf83-403f-9322-a23906ec3709" />
+
+> **K-MEANS:** text --> embedding --> k Clusters (via some similarity heuristic)
+
+> **DEEP LEARNING:** Summarize each cluster using BART, T5-Base, or T5-Small
 
 Our proposed system pipeline comprises two
 primary systems which abstractly factor the project
