@@ -4,19 +4,6 @@
 
 [Click here to view the Final Report (PDF)](Final_Report.pdf)
 
-**Model Architectures Overview**
-
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/83d4233a-f883-4c07-af6c-6a462829cc88" />
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/522e0817-a9b0-4760-bb9c-dab1a8d6cfa0" />
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/57b2a472-729c-475b-9204-10e150075f8f" />
-
-**Generative Summarization Models: Evaluation and Comparisons**
-
-<img width="300" height="400" alt="bart_rougeL" src="https://github.com/user-attachments/assets/70ec5315-965f-4e24-b232-2e47b90d273d" />
-<img width="300" height="400" alt="t5-small_rougeL" src="https://github.com/user-attachments/assets/535abc82-8c02-4f0c-a2bf-2aaafc777fed" />
-<img width="300" height="400" alt="t5-base_rougeL" src="https://github.com/user-attachments/assets/9adbb424-94aa-4091-8ab7-3f1f1bb66c26" />
-
-
 **Abstract**
 
 In 1956, George A. Miller proposed his notion of "The Magical Number" regarding an
@@ -79,6 +66,12 @@ regard to our model, we changed our base model
 between Google’s T5 base, Google’s T5 small, and
 Facebook’s BART base.
 
+**MODEL ARCHITECTURES OVERVIEW**
+
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/83d4233a-f883-4c07-af6c-6a462829cc88" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/522e0817-a9b0-4760-bb9c-dab1a8d6cfa0" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/57b2a472-729c-475b-9204-10e150075f8f" />
+
 **APPROACH**
 
 The high-level approach and system pipeline remained consistent since the project proposal with
@@ -103,6 +96,11 @@ each key topic via a deep-learning NLP model. The
 following sections elaborate on the implementationspecific decisions that we made to bring this system
 to life.
 
+**EVALUATION & COMPARISONS**
+
+<img width="300" height="400" alt="bart_rougeL" src="https://github.com/user-attachments/assets/70ec5315-965f-4e24-b232-2e47b90d273d" />
+<img width="300" height="400" alt="t5-small_rougeL" src="https://github.com/user-attachments/assets/535abc82-8c02-4f0c-a2bf-2aaafc777fed" />
+<img width="300" height="400" alt="t5-base_rougeL" src="https://github.com/user-attachments/assets/9adbb424-94aa-4091-8ab7-3f1f1bb66c26" />
 
 [Click here to view the Proposal Report (PDF)](Proposal_Report.pdf)
 
